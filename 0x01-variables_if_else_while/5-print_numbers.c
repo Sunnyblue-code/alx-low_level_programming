@@ -6,12 +6,14 @@
  * Description: prints numbers from 1 to 10
  * Return: 0
 */
-int main(void){
-    int base;
-    for (base = 0; base <= 10; base++)
+int main(void)
 {
-        printf("%d\n", base);
-}
+int base;
+    for (base = 0; base <= 10; base++)
+	{
+        printf("%d", base);
+	purchar("\n");
+	}
     
     return (0);
 }
