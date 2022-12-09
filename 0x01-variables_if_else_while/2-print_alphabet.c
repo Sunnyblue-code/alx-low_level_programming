@@ -1,4 +1,3 @@
-# include <conio.h>
 # include <stdio.h>
 # include <stdlib.h>
 /** program that print small alphabets */
