@@ -3,16 +3,18 @@
 #include <time.h>
 /**
  * main - entry point
- * Description: prints numbers from 1 to 10
+ * Description: prints single digits of base 10 starting from 0
  * Return: 0
 */
-int main(void)
+	int main(void)
 {
-int base;
-    for (base = 0; base < 10; base++)
+
+	int s = 0;
+
+	for (s = 0; s < 10; s++)
 	{
-        printf("%d", base);
+		printf("%d", s);
 	}
-    	putchar('\n');
-    return (0);
+	putchar('\n');
+	return (0);
 }
